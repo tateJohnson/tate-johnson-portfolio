@@ -199,6 +199,13 @@ a {
     aspect-ratio: 3 / 4;
 }
 
+.portrait-img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
 .project-card:hover .placeholder-image {
     border-color: var(--color-accent);
     background: linear-gradient(135deg, #fff5f0 0%, #ffeaa7 100%);
