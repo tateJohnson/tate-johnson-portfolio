@@ -359,7 +359,8 @@ a {
 .gallery-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--color-surface-hover);
     transition: transform 0.3s ease;
 }
 
