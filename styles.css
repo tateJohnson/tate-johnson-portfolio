@@ -200,8 +200,11 @@ a {
 }
 
 .portrait-img {
-    width: 180px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
@@ -232,7 +235,7 @@ a {
 /* ===== About Page ===== */
 .about-section {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 300px 1fr;
     gap: var(--spacing-xl);
     align-items: start;
 }
